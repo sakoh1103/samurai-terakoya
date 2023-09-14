@@ -1,5 +1,5 @@
-const calculateteTotal=(x,y)=>{
-  console.log(x + y);
+const calculateteTotal=(num)=>{
+  return num *2;
 }
 
-calculateteTotal(60,40);
+console.log(calculateteTotal(50));
