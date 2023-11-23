@@ -1,0 +1,446 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#haikei01{
+  position: relative;
+  background-image: url(img/haikei01.PNG);
+  background-repeat: no-repeat;
+  min-width:360px;
+  }
+
+  div#visual00 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+img#visual01 {
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  animation: slideinTop 3s;
+}
+
+@keyframes slideinTop {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+img#visual02 {
+  position: absolute;
+  top: -500px;
+  left: 150px;
+  animation: slideinTop 5s;
+}
+
+@keyframes slideinTop {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+img#visual03 {
+  position: absolute;
+  top: 70px;
+  left: 330px;
+  animation: slideinTop 1s;
+}
+
+@keyframes slideinTop {
+  0% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+img#rogo {
+  position: absolute;
+  top: 300px;
+  left: 440px;
+
+}
+
+
+img#visual04 {
+  position: absolute;
+  top: -200px;
+  left: 650px;
+  animation: slideinTop 3s;
+}
+
+@keyframes slideinTop {
+  0% {
+    transform: translateY(-300px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+img#visual05 {
+  position: absolute;
+  top: -350px;
+  left: 800px;
+  animation: slideinTop 1s;
+}
+
+@keyframes slideinTop {
+  0% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+/* メッセージ */
+div#message {
+  position: relative;
+}
+
+img#message01 {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  display: none;
+}
+
+img#message02 {
+  position: absolute;
+  top: 330px;
+  left: 100px;
+  display:none
+}
+
+img#img-pc1{
+  display: none;
+}
+
+
+
+/* インフォメーション */
+
+div#infomation {
+  position: relative;
+}
+
+div#infomation1 {
+  display: flex;
+  position: absolute;
+  left: 250px;
+  top: 100px;
+  display: none;
+}
+
+
+img#info03 {
+  position: absolute;
+  top: 230px;
+  left: 100px;
+  display: none;
+}
+
+p#place {
+  position: absolute;
+  left: 200px;
+  top:430px;
+  color: #f9f1e3;
+  width: 800px;
+  font-size: 30px;
+  display: none;
+}
+
+a#button_1 {
+  position: absolute;
+  top: 510px;
+  left: 0px;
+}
+
+
+/* 商品詳細 */
+#contena{
+  position: relative;
+}
+
+#contena1{
+  height:2700px;
+  width:1080px;
+}
+
+#contena > h1 {
+  position: absolute;
+  top: 10px;
+  left: 430px;
+  color: #f9f1e3;
+  font-size: 50px;
+}
+
+#box1 {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  align-items: center;
+}
+
+
+
+#box2 {
+  display: flex;
+  position: absolute;
+  top: 650px;
+  left: 160px;
+  align-items: center;
+}
+
+
+#box3 {
+  display: flex;
+  position: absolute;
+  top: 1250px;
+  left: 150px;
+  align-items: center;
+}
+
+
+#box4 {
+  display: flex;
+  position: absolute;
+  top: 1900px;
+  left: 150px;
+  align-items: center;
+}
+
+.syousai {
+  position: relative;
+}
+
+img.haikei03 {
+  width: 450px;
+}
+
+p.setumei {
+  position: absolute;
+  font-size: 20px;
+  top: 160px;
+  margin: 10px 40px;
+  color: #323c5a;
+  text-align: justify;
+}
+
+p.number {
+  position: absolute;
+  top: 0px;
+  font-size: 30px;
+  left: 140px;
+  color: #f9f1e3;
+  margin: 30px 65px;
+}
+
+p.hinmei {
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  margin: 50px 67px;
+  color: #f9f1e3;
+  font-size: 30px;
+}
+
+/* eye */
+p.eyehinmei {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  margin: 50px 60px;
+  color: #f9f1e3;
+  font-size: 30px;
+}
+
+/* チーク */
+p.tchec {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  margin: 60px 15px 10px;
+  color: #f9f1e3;
+  font-size: 30px;
+}
+
+p.cream {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  margin: 70px 15px 10px;
+  color: #f9f1e3;
+  font-size: 19px;
+}
+
+
+#hpLink {
+  position: fixed;
+  bottom: 100px;
+  right: 150px;
+  display:none;
+}
+
+
+
+
+/* pcレスポンシブ */
+@media screen and (min-width: 1080px) {
+  /* ここに通常のCSSを書きます。以下は一例です */
+
+  img.haikkei00 {
+    width: 100vw;
+}
+
+
+img#message01 {
+  position: absolute;
+  top: 350px;
+  left: 40px;
+  width: 1300px;
+}
+
+img#message02 {
+  position: absolute;
+  top: 700px;
+  left: 250px;
+}
+
+
+
+
+div#infomation1 {
+  display: flex;
+  position: absolute;
+  left: 300px;
+  top: 250px;
+  align-items: center;
+  display: none;
+}
+
+img#info01 {
+  width: 300px;
+}
+
+img#info02 {
+  width: 500px;
+}
+
+img#info03 {
+  position: absolute;
+  top: 450px;
+  left: 100px;
+  width: 1150px;
+}
+
+a#button_1 {
+  position: absolute;
+  top: 850px;
+  left: 130px;
+  display: none;
+}
+
+
+p#place {
+  position: absolute;
+  left: 350px;
+  top: 730px;
+  color: #f9f1e3;
+  width: 800px;
+  font-size: 30px;
+}
+
+#contena1 {
+  /* height: 2700px; */
+  width: 100vw;
+}
+
+div#item {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  left: 500px;
+  width: 500px;
+  height: 500px;
+  /* background-color: #aaa; */
+  flex-flow: wrap;
+  justify-content: space-around;
+  width: 100vw;
+
+}
+
+
+#box1 {
+  display: flex;
+  top: 50px;
+  left: 20px;
+  align-items: center;
+}
+
+
+#box2 {
+  display: flex;
+  top: 650px;
+  left: 160px;
+  align-items: center;
+}
+
+
+#box3 {
+  display: flex;
+  top: 1250px;
+  left: 150px;
+  align-items: center;
+}
+
+
+#box4 {
+  display: flex;
+  top: 1900px;
+  left: 150px;
+  align-items: center;
+}
+
+#ancciHp {
+  width: 600px;
+  background: #f9f1e3;
+  height: 925px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+
+img#hplink01 {
+  filter: drop-shadow(5px 5px 5px #aaa);
+}
+
+
+
+}
